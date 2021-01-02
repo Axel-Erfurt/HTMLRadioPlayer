@@ -1,9 +1,33 @@
 body {
   background-color: #202F1F;
   color: #c4a000;
-  width: 410px;
+  width: 700px;
+  margin-left: -20px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #202e1e;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  #242;
+  border-radius: 3px;
 }
 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c4c555;
+}
+::-webkit-scrollbar-thumb:horizontal {
+    display: none;
+}
+::-webkit-scrollbar-button
+{
+  background:  #262;
+  border-radius: 3px;
+  height: 6px;
+}
 h2 {
   text-shadow: #088 1px 1px 1px;
   font-size: 20pt;
@@ -30,7 +54,7 @@ h5 {
 
 #playlist,
 #player {
-  width: 300px;
+  width: 600px;
   padding: 20px;
   margin: 0 auto;
   float: left;
@@ -47,17 +71,18 @@ h5 {
 }
 
 #player {
-  background-color: #1A1A1A;
+  background-color: #202F1F;
   padding: 10px 20px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 audio {
-  height: 32px;
-  width: 300px;
-  margin: 0 auto;
-  filter: opacity(90%);
+  height: 42px;
+  width: 290px;
+
+  margin-right: 300px;
+  filter: opacity(70%);
 }
 
 audio::-webkit-media-controls-timeline {
@@ -146,13 +171,14 @@ input.customSearch[type=search] {
   -webkit-box-sizing: content-box;
   font-family: inherit;
   font-size: 150%;
-  margin-left: 10px;
+  margin-left: 26px;
   margin-top: 10px;
   background: transparent;
   color: #c4a000;
   border: 2px inset #c4a000;
   padding: 4px 3px 4px 32px;
-  width: 150px;
+  width: 120px;
+  height: 32px;
 
   -webkit-border-radius: 10em;
   -moz-border-radius: 10em;
@@ -164,7 +190,7 @@ input.customSearch[type=search] {
 }
 
 input.customSearch[type=search]:focus {
-  width: 280px;
+  width: 250px;
   background: #202F1F;
   color: #c4a000;
   border: 2px inset #66cc75;
@@ -189,7 +215,7 @@ input.customSearch::-webkit-input-placeholder {
   height: 40px;
   position: fixed;
   top: 5;
-  left: 390px;
+  left: 560px;
   width: auto;
   z-index: 10;
 }
