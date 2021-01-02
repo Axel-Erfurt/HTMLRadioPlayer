@@ -1,8 +1,7 @@
 body {
   background-color: #202F1F;
   color: #c4a000;
-  width: 700px;
-  margin-left: -20px;
+  width: 410px;
 }
 ::-webkit-scrollbar {
   width: 6px;
@@ -54,7 +53,7 @@ h5 {
 
 #playlist,
 #player {
-  width: 600px;
+  width: 300px;
   padding: 20px;
   margin: 0 auto;
   float: left;
@@ -71,18 +70,17 @@ h5 {
 }
 
 #player {
-  background-color: #202F1F;
+  background-color: #1A1A1A;
   padding: 10px 20px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 audio {
-  height: 42px;
-  width: 290px;
-
-  margin-right: 300px;
-  filter: opacity(70%);
+  height: 32px;
+  width: 300px;
+  margin: 0 auto;
+  filter: opacity(90%);
 }
 
 audio::-webkit-media-controls-timeline {
@@ -171,14 +169,13 @@ input.customSearch[type=search] {
   -webkit-box-sizing: content-box;
   font-family: inherit;
   font-size: 150%;
-  margin-left: 26px;
+  margin-left: 10px;
   margin-top: 10px;
   background: transparent;
   color: #c4a000;
   border: 2px inset #c4a000;
   padding: 4px 3px 4px 32px;
-  width: 120px;
-  height: 32px;
+  width: 150px;
 
   -webkit-border-radius: 10em;
   -moz-border-radius: 10em;
@@ -190,7 +187,7 @@ input.customSearch[type=search] {
 }
 
 input.customSearch[type=search]:focus {
-  width: 250px;
+  width: 280px;
   background: #202F1F;
   color: #c4a000;
   border: 2px inset #66cc75;
@@ -215,7 +212,7 @@ input.customSearch::-webkit-input-placeholder {
   height: 40px;
   position: fixed;
   top: 5;
-  left: 560px;
+  left: 390px;
   width: auto;
   z-index: 10;
 }
