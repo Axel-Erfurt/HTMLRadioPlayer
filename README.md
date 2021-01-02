@@ -18,3 +18,5 @@ in the section ```<ul id='playlist' class='list'>```
 - add a line:
 
 ```	<li><a class='chlist' href='http://xxx'>Title</a></li>```
+
+replace *http://xxx* with the URL and *Title* with the station name
